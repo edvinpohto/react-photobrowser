@@ -1,13 +1,17 @@
 import React from 'react';
 import './styles/App.css';
+import { Routes, Route } from 'react-router-dom';
+import ImageGrid from './components/ImageGrid';
+import Image from './components/Image';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Hi</p>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<ImageGrid />}/>
+        <Route path="/:id" element={<Image />}/>
+      </Routes>
+    </>
   );
 }
 

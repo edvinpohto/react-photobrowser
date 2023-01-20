@@ -12,7 +12,7 @@ Once installed, go ahead and clone this repository.
 Then, run <code>npm install</code> to install the required dependencies and finally <code>npm start</code> in the cloned directory.
 
 ## Demo
-Enter where to find demo
+A working demo of the application can be found [here](https://edvinsimages.netlify.app/).
 
 ## Technologies used
 This application is built using React.js with TypeScript, as well as Tailwind CSS for styling.

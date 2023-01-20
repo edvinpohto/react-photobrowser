@@ -11,7 +11,7 @@ Once installed, go ahead and clone this repository
 
 and change directories into the newly cloned one.
 
-<code>cd .\react-photobrowser\</code>
+<code>cd .\react-photobrowser</code>
 
 Once in the new directory, run <code>npm install</code> to install the required dependencies and finally <code>npm start</code> in the cloned directory.
 

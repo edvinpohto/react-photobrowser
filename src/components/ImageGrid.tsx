@@ -5,13 +5,11 @@ import getImages from "../utilities/getImages";
 
 const ImageGrid = () => {
   const [images, setImages] = useState<Image[]>([])
-  const [loading, setLoading] = useState(true)
   
   useEffect(() => {
     const fetchData = async () => {
       const data = await getImages();
       setImages(data);
-      setLoading(false)
     };
     fetchData();
   },[]);
